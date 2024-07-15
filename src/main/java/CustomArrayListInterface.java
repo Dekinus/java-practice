@@ -4,6 +4,8 @@ import java.util.Comparator;
 public interface CustomArrayListInterface<E> {
 	void add(int index, E element);
 
+
+
 	int size();
 
 	void addAll(Collection<? extends E> c);
@@ -21,4 +23,5 @@ public interface CustomArrayListInterface<E> {
 	void sort(Comparator<? super E> c);
 
 	Object[] toArray();
+
 }
